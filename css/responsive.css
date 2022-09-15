@@ -1,0 +1,75 @@
+/* Tablet & Mobile */
+
+@media only screen and (max-width: 992px) {
+    .header-pc {
+        display: none;
+    }
+    .header-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-block {
+        width: 100%;
+    }
+    #myTab {
+        height: 100%;
+    overflow-y: scroll;
+
+    }
+    .nav-item, .navbar-branch {
+        width: 100%;
+    }
+    .supplier-logo {
+        width: 120px;
+    }
+    .form-group {
+        padding-top: 20px;
+    }
+    .btn-download-block {
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile: width < 740px  */
+
+@media only screen and (max-width: 739px) {}
+
+/* Tablet: width >= 740px and width < 1024px */
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) {}
+
+/* PC: width >= 1024px  */
+
+@media only screen and (min-width: 992px) {
+    .header-pc {
+        display: block;
+    }
+    .header-mobile {
+        display: none;
+    }
+}
+
+/* Oder */
+@media screen and (max-width: 1199px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 459px) {
+   
+}
+
+@media screen and (max-width: 400px) {
+    
+}
+
+@media screen and (max-width: 361px) {
+    
+}
+
+@media screen and (max-width: 321px) {
+    
+}
