@@ -6,6 +6,59 @@ $address = $_POST["company-address"];
 $director = $_POST["company-director"];
 $position = $_POST["company-position"];
 
+$day = $_POST["day"];
+$month = $_POST["month"];
+$year = $_POST["year"];
+$package = $_POST["package"];
+$oneYear = "";
+$twoYear = "";
+$threeYear = "";
+$new = "";
+$extend = "";
+
+switch($package) {
+    case 0:
+        $new = $extend = $oneYear = $twoYear = $threeYear = " &#9744; ";
+    break;
+    case 1:
+        $extend = $twoYear = $threeYear = " &#9744; ";
+        $new = $oneYear = " &#9746; ";
+    break;
+    case 2:
+        $extend = $oneYear = $threeYear = " &#9744; ";
+        $new = $twoYear = " &#9746; ";
+    break;
+    case 3:
+        $extend = $oneYear = $twoYear = " &#9744; ";
+        $new = $threeYear = " &#9746; ";
+    break;
+    case 4:
+        $new = $oneYear = $twoYear = $threeYear = " &#9744; ";
+        $extend = $oneYear = " &#9746; ";
+    break;
+    case 5:
+        $new = $oneYear = $threeYear = " &#9744; ";
+        $extend = $twoYear = " &#9746; ";
+    break;
+    case 6:
+        $new = $oneYear = $twoYear = " &#9744; ";
+        $extend = $threeYear = " &#9746; ";
+    break;
+ }
+
+ 
+
+if ($day === ""){
+    $day = "...";
+}
+if ($month === ""){
+    $month = "...";
+}
+if ($year === ""){
+    $year = "......";
+}
+
+
 $template_file_name = 'fastca-inputGDK.docx';
 $fileName = "GDK_" . $taxCode. ".docx";
 $folder   = "Fast-CA";
@@ -57,6 +110,12 @@ try
         $message = str_replace("tokenaddress",$address,$message); 
         $message = str_replace("tokendirector",$director,$message); 
         $message = str_replace("tokenposition",$position,$message);
+
+        $message = str_replace("G1", $oneYear,$message); 
+        $message = str_replace("G2", $twoYear,$message); 
+        $message = str_replace("G3", $threeYear,$message);
+        $message = str_replace("D1", $new,  $message); 
+        $message = str_replace("D2", $extend,  $message);
         //Replace the content with the new content created above.
         $zip->addFromString($key_file_name, $message);
         $zip->close();

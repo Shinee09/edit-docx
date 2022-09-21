@@ -6,6 +6,30 @@ $address = $_POST["company-address"];
 $director = $_POST["company-director"];
 $position = $_POST["company-position"];
 
+$day = $_POST["day"];
+$month = $_POST["month"];
+$year = $_POST["year"];
+
+$idCard = $_POST["id-card"];
+$idDay = $_POST["day-issued"];
+$idMonth = $_POST["month-issued"];
+$idYear = $_POST["year-issued"];
+$dateIssued = $idDay . "/" . $idMonth . "/" . $idYear ;
+$placeIssued = $_POST["place-issued"];
+
+$dAddress = $_POST["director-address"];
+
+if ($day === ""){
+    $day = "....";
+}
+if ($month === ""){
+    $month = "....";
+}
+if ($year === ""){
+    $year = "......";
+}
+
+
 $template_file_name = 'newca-inputGDK.docx';
 $fileName = "GDK_" . $taxCode. ".docx";
 $folder   = "NewTel-CA";
@@ -57,6 +81,17 @@ try
         $message = str_replace("tokenaddress",$address,$message); 
         $message = str_replace("tokendirector",$director,$message); 
         $message = str_replace("tokenposition",$position,$message);
+
+        $message = str_replace("tokenday",    $day,  $message); 
+        $message = str_replace("tokenmonth",   $month, $message); 
+        $message = str_replace("tokenyear",     $year,   $message);
+
+        $message = str_replace("tokenid",$idCard,  $message);
+        $message = str_replace("tokendateplace",    $dateIssued,  $message);
+        $message = str_replace("tokenplace",  $placeIssued,$message);   
+
+        $message = str_replace("tokendaddress",  $dAddress,$message);   
+
         //Replace the content with the new content created above.
         $zip->addFromString($key_file_name, $message);
         $zip->close();

@@ -53,7 +53,6 @@ switch($package) {
     break;
  }
 
-
 $template_file_name = 'vinca-inputgdk.docx';
 $fileName = "GDK_" . $taxCode. ".docx";
 $folder   = "VIN-CA";

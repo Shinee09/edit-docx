@@ -133,6 +133,9 @@ form label {
 .btn-download {
     margin: 8px;
 }
+.pdf-icon {
+    height: 20px;
+}
 
 .header-mobile {
     height: 40px;
@@ -175,7 +178,6 @@ form label {
     background-color: #fff;
     z-index: 9999;
 }
-
 
 .nav__mobile-btn-close {
     opacity: 0.6;
