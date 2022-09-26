@@ -105,12 +105,12 @@ try
         $message = str_replace("tokendirector", $director,           $message); 
         $message = str_replace("tokenposition", $position,           $message);  
 
-        $message = str_replace("G1", $oneYear,$message); 
-        $message = str_replace("G2", $twoYear,$message); 
-        $message = str_replace("G3", $threeYear,$message);
-        $message = str_replace("G4", $fourYear,$message);
-        $message = str_replace("D1", $new,  $message); 
-        $message = str_replace("D2", $extend,  $message);
+        $message = str_replace("1year", $oneYear,$message); 
+        $message = str_replace("2year", $twoYear,$message); 
+        $message = str_replace("3year", $threeYear,$message);
+        $message = str_replace("4year", $fourYear,$message);
+        $message = str_replace("1pack", $new,  $message); 
+        $message = str_replace("2pack", $extend,  $message);
 
         $message = str_replace("tokenyear", $year,  $message);
 

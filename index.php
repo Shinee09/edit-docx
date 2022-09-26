@@ -1376,6 +1376,9 @@
                                                     <option value="4">Gia hạn 1 năm</option>
                                                     <option value="5">Gia hạn 2 năm</option>
                                                     <option value="6">Gia hạn 3 năm</option>
+                                                    <option value="7">Chuyển đổi 1 năm</option>
+                                                    <option value="8">Chuyển đổi 2 năm</option>
+                                                    <option value="9">Chuyển đổi 3 năm</option>
                                                 </select>
                                             </div>
                                             </div>
@@ -1676,10 +1679,18 @@ $(document).ready(function() {
                 }
             });
             setTimeout(function() {
-                var block = document.querySelector('.table-taxinfo').innerHTML
-                getCompanyName(formId, block)
-                getAddress(formId, block)
-                getDirector(formId, block)
+                if (document.querySelector('.table-taxinfo') == null) {
+                    var getBlock = document.querySelector('.tax-listing')
+                    var block = getBlock.querySelector("#main > section > div > div.tax-listing > div:nth-child(2)");
+                    getCompanyNameCn(formId, block)
+                    getAddressCn(formId, block)
+                    getDirectorCn(formId, block)
+                } else {
+                    var block = document.querySelector('.table-taxinfo').innerHTML
+                    getCompanyName(formId, block)
+                    getAddress(formId, block)
+                    getDirector(formId, block)
+                }
             }, 2000)
             return false;
         }
@@ -1712,10 +1723,18 @@ $(document).ready(function() {
                 }
             });
             setTimeout(function() {
-                var block = document.querySelector('.table-taxinfo').innerHTML
-                getCompanyName(formId, block)
-                getAddress(formId, block)
-                getDirector(formId, block)
+                if (document.querySelector('.table-taxinfo') == null) {
+                    var getBlock = document.querySelector('.tax-listing')
+                    var block = getBlock.querySelector("#main > section > div > div.tax-listing > div:nth-child(2)");
+                    getCompanyNameCn(formId, block)
+                    getAddressCn(formId, block)
+                    getDirectorCn(formId, block)
+                } else {
+                    var block = document.querySelector('.table-taxinfo').innerHTML
+                    getCompanyName(formId, block)
+                    getAddress(formId, block)
+                    getDirector(formId, block)
+                }
             }, 2000)
             return false;
         }
@@ -1748,10 +1767,18 @@ $(document).ready(function() {
                 }
             });
             setTimeout(function() {
-                var block = document.querySelector('.table-taxinfo').innerHTML
-                getCompanyName(formId, block)
-                getAddress(formId, block)
-                getDirector(formId, block)
+                if (document.querySelector('.table-taxinfo') == null) {
+                    var getBlock = document.querySelector('.tax-listing')
+                    var block = getBlock.querySelector("#main > section > div > div.tax-listing > div:nth-child(2)");
+                    getCompanyNameCn(formId, block)
+                    getAddressCn(formId, block)
+                    getDirectorCn(formId, block)
+                } else {
+                    var block = document.querySelector('.table-taxinfo').innerHTML
+                    getCompanyName(formId, block)
+                    getAddress(formId, block)
+                    getDirector(formId, block)
+                }
             }, 2000)
             return false;
         }
@@ -1784,10 +1811,18 @@ $(document).ready(function() {
                 }
             });
             setTimeout(function() {
-                var block = document.querySelector('.table-taxinfo').innerHTML
-                getCompanyName(formId, block)
-                getAddress(formId, block)
-                getDirector(formId, block)
+                if (document.querySelector('.table-taxinfo') == null) {
+                    var getBlock = document.querySelector('.tax-listing')
+                    var block = getBlock.querySelector("#main > section > div > div.tax-listing > div:nth-child(2)");
+                    getCompanyNameCn(formId, block)
+                    getAddressCn(formId, block)
+                    getDirectorCn(formId, block)
+                } else {
+                    var block = document.querySelector('.table-taxinfo').innerHTML
+                    getCompanyName(formId, block)
+                    getAddress(formId, block)
+                    getDirector(formId, block)
+                }
             }, 2000)
             return false;
         }
@@ -1822,11 +1857,18 @@ $(document).ready(function() {
                 }
             });
             setTimeout(function() {
-                var block = document.querySelector('.table-taxinfo').innerHTML
-                getCompanyName(formId, block)
-                getAddress(formId, block)
-                getDirector(formId, block)
-                getPhone(formId, block)
+                if (document.querySelector('.table-taxinfo') == null) {
+                    var getBlock = document.querySelector('.tax-listing')
+                    var block = getBlock.querySelector("#main > section > div > div.tax-listing > div:nth-child(2)");
+                    getCompanyNameCn(formId, block)
+                    getAddressCn(formId, block)
+                    getDirectorCn(formId, block)
+                } else {
+                    var block = document.querySelector('.table-taxinfo').innerHTML
+                    getCompanyName(formId, block)
+                    getAddress(formId, block)
+                    getDirector(formId, block)
+                }
             }, 2000)
             return false;
         }
@@ -1859,10 +1901,18 @@ $(document).ready(function() {
                 }
             });
             setTimeout(function() {
-                var block = document.querySelector('.table-taxinfo').innerHTML
-                getCompanyName(formId, block)
-                getAddress(formId, block)
-                getDirector(formId, block)
+                if (document.querySelector('.table-taxinfo') == null) {
+                    var getBlock = document.querySelector('.tax-listing')
+                    var block = getBlock.querySelector("#main > section > div > div.tax-listing > div:nth-child(2)");
+                    getCompanyNameCn(formId, block)
+                    getAddressCn(formId, block)
+                    getDirectorCn(formId, block)
+                } else {
+                    var block = document.querySelector('.table-taxinfo').innerHTML
+                    getCompanyName(formId, block)
+                    getAddress(formId, block)
+                    getDirector(formId, block)
+                }
             }, 2000)
             return false;
         }
@@ -1895,10 +1945,19 @@ $(document).ready(function() {
                 }
             });
             setTimeout(function() {
-                var block = document.querySelector('.table-taxinfo').innerHTML
-                getCompanyName(formId, block)
-                getAddress(formId, block)
-                getDirector(formId, block)
+                if (document.querySelector('.table-taxinfo') == null) {
+                    var getBlock = document.querySelector('.tax-listing')
+                    var block = getBlock.querySelector("#main > section > div > div.tax-listing > div:nth-child(2)");
+                    getCompanyNameCn(formId, block)
+                    getAddressCn(formId, block)
+                    getDirectorCn(formId, block)
+                } else {
+                    var block = document.querySelector('.table-taxinfo').innerHTML
+                    getCompanyName(formId, block)
+                    getAddress(formId, block)
+                    getDirector(formId, block)
+                    
+                }
             }, 2000)
             return false;
         }
@@ -1916,6 +1975,24 @@ getCompanyName = (formId, block) => {
     return result
 }
 
+getCompanyNameCn = (formId, block) => {
+    const result = document.querySelector("#main > section > div > div.tax-listing > div:nth-child(2) > h3 > a").innerHTML;
+    document.querySelector(`#${formId} > div:nth-child(2) > input`).value = result
+    return result
+}
+
+getAddressCn = (formId, block) => {
+    const result = document.querySelector("#main > section > div > div.tax-listing > div:nth-child(2) > address").innerHTML.replace('<i class="fa fa-map-marker"></i> ','');
+    document.querySelector(`#${formId} > div:nth-child(3) > input`).value = result
+    return result
+}
+
+getDirectorCn = (formId, block) => {
+    const result = document.querySelector("#main > section > div > div.tax-listing > div:nth-child(4) > div > em > a").innerHTML;
+    document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value = result
+    return result
+}
+
 getAddress = (formId, block) => {
     const start1 = block.search('address')
     const end1 = block.search('alumni')
@@ -1926,6 +2003,8 @@ getAddress = (formId, block) => {
     document.querySelector(`#${formId} > div:nth-child(3) > input`).value = result
     return result
 }
+
+
 
 getDirector = (formId, block) => {
     const start1 = block.search('legalName')

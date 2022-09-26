@@ -15,35 +15,49 @@ $twoYear = "";
 $threeYear = "";
 $new = "";
 $extend = "";
+$convert = "";
 
 switch($package) {
     case 0:
-        $new = $extend = $oneYear = $twoYear = $threeYear = " &#9744; ";
+        $new = $extend = $convert = $oneYear = $twoYear = $threeYear = " &#9744; ";
     break;
     case 1:
-        $extend = $twoYear = $threeYear = " &#9744; ";
+        $extend = $convert = $twoYear = $threeYear = " &#9744; ";
         $new = $oneYear = " &#9746; ";
     break;
     case 2:
-        $extend = $oneYear = $threeYear = " &#9744; ";
+        $extend = $convert = $oneYear = $threeYear = " &#9744; ";
         $new = $twoYear = " &#9746; ";
     break;
     case 3:
-        $extend = $oneYear = $twoYear = " &#9744; ";
+        $extend = $convert = $oneYear = $twoYear = " &#9744; ";
         $new = $threeYear = " &#9746; ";
     break;
     case 4:
-        $new = $oneYear = $twoYear = $threeYear = " &#9744; ";
+        $new = $convert = $oneYear = $twoYear = $threeYear = " &#9744; ";
         $extend = $oneYear = " &#9746; ";
     break;
     case 5:
-        $new = $oneYear = $threeYear = " &#9744; ";
+        $new = $convert = $oneYear = $threeYear = " &#9744; ";
         $extend = $twoYear = " &#9746; ";
     break;
     case 6:
-        $new = $oneYear = $twoYear = " &#9744; ";
+        $new = $convert = $oneYear = $twoYear = " &#9744; ";
         $extend = $threeYear = " &#9746; ";
     break;
+    case 7:
+        $extend = $new = $twoYear = $threeYear = " &#9744; ";
+        $convert = $oneYear = " &#9746; ";
+    break;
+    case 8:
+        $extend = $new = $oneYear = $threeYear = " &#9744; ";
+        $convert = $twoYear = " &#9746; ";
+    break;
+    case 9:
+        $extend = $new = $oneYear = $twoYear = " &#9744; ";
+        $convert = $threeYear = " &#9746; ";
+    break;
+
  }
 
  
@@ -111,11 +125,17 @@ try
         $message = str_replace("tokendirector",$director,$message); 
         $message = str_replace("tokenposition",$position,$message);
 
-        $message = str_replace("G1", $oneYear,$message); 
-        $message = str_replace("G2", $twoYear,$message); 
-        $message = str_replace("G3", $threeYear,$message);
-        $message = str_replace("D1", $new,  $message); 
-        $message = str_replace("D2", $extend,  $message);
+        $message = str_replace("tokenday",    $day,  $message); 
+        $message = str_replace("tokenmonth",   $month, $message); 
+        $message = str_replace("tokenyear",     $year,   $message);
+
+        $message = str_replace("1year", $oneYear,$message); 
+        $message = str_replace("2year", $twoYear,$message); 
+        $message = str_replace("3year", $threeYear,$message);
+        $message = str_replace("1pack", $new,  $message); 
+        $message = str_replace("2pack", $extend,  $message);
+        $message = str_replace("3pack", $convert,  $message);
+
         //Replace the content with the new content created above.
         $zip->addFromString($key_file_name, $message);
         $zip->close();
