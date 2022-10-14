@@ -21,11 +21,11 @@ Validator.isChars = (selector) => {
     return {
         selector: selector,
         test: (value) => {
-            var iChars = "&<";
+            var iChars = "&";
             for (var i = 0; i < value.length; i++) {
                 if (iChars.indexOf(value.charAt(i)) != -1) {
                     $(document).ready(function() {
-                        $(".toast").toast('show');
+                        $("#toast-alert-chars").toast('show');
                     });
                     return false;
                 }

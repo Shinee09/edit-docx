@@ -10,6 +10,7 @@
     }
     .content-block {
         width: 100%;
+        margin-left: 0;
     }
     #myTab {
         height: 100%;
