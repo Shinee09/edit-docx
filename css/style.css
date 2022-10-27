@@ -1,6 +1,26 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    
+}
 
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: #b7b7b7;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b569ff;
+    border-radius: 40px;
+}
+
+.spinner-border {
+    display: none;
+    margin-left: 4px;
+}
+
+.loading .spinner-border {
+    display: inline-block;
 }
 
 .btn-info {
@@ -255,10 +275,34 @@ form label {
 
 .toast {
     right: 12px;
-    bottom: 12px;
-    position: absolute;
+    bottom: 140px;
+    position: fixed;
     font-size: 1rem;
     --bs-toast-max-width: 480px;
+}
+
+#toast-alert-chars {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#toast-info-not-found {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.toast-header-alert {
+    color: #842029;
+    background-color: #f8d7da;
+}
+
+.toast-body-alert {
+    color: #842029;
+    background-color: #f8d7da;
 }
 
 .me-auto {

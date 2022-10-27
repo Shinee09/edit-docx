@@ -25,12 +25,22 @@
         <link rel="stylesheet" href="./css/responsive.css">
 
 
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="/ho-so" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta property="og:title" content="" />
-        <meta property="og:url" content="" />
+        <meta property="og:title" content="/ho-so" />
+        <meta property="og:url" content="/ho-so" />
         <meta property="og:description" content="" />
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWVRWPMB3L"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-QWVRWPMB3L');
+        </script>
     </head>
 
     <body>
@@ -205,8 +215,10 @@
                                                 </div>
                                                 <div class="form-group col-lg-6">
                                                     <button type="submit" class="btn btn-primary"
-                                                        id="get-info-form-vinca">Lấy thông
-                                                        tin</button>
+                                                        id="get-info-form-vinca">
+                                                        Lấy thông tin
+                                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -280,7 +292,9 @@
                                             </div>
                                         </form>
                                     </div>
+                                    
                                 </div>
+                                
                             </div>
                             <!-- End VinCA -->
 
@@ -303,9 +317,9 @@
                                                         title="Vui lòng điền đúng định dạng mã số thuế" required="">
                                                 </div>
                                                 <div class="form-group col-lg-6">
-                                                    <button type="submit" class="btn btn-primary"
-                                                        id="get-info-form-vina">Lấy thông
-                                                        tin</button>
+                                                    <button type="submit" class="btn btn-primary" id="get-info-form-vina"> Lấy thông tin
+                                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -566,9 +580,9 @@
                                                         title="Vui lòng điền đúng định dạng mã số thuế" required="">
                                                 </div>
                                                 <div class="form-group col-lg-6">
-                                                    <button type="submit" class="btn btn-primary"
-                                                        id="get-info-form-fptca">Lấy thông
-                                                        tin</button>
+                                                <button type="submit" class="btn btn-primary" id="get-info-form-fptca"> Lấy thông tin
+                                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -632,12 +646,9 @@
                                                     <label>Gói cước </label>
                                                     <select name="package" class="form-select form-control package">
                                                         <option value="0" selected>---Chọn gói---</option>
-                                                        <option value="1">Cấp mới 1 năm</option>
-                                                        <option value="2">Cấp mới 2 năm</option>
-                                                        <option value="3">Cấp mới 3 năm</option>
-                                                        <option value="4">Gia hạn 1 năm</option>
-                                                        <option value="5">Gia hạn 2 năm</option>
-                                                        <option value="6">Gia hạn 3 năm</option>
+                                                        <option value="1">1 năm</option>
+                                                        <option value="2">2 năm</option>
+                                                        <option value="3">3 năm</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -695,9 +706,9 @@
                                                         title="Vui lòng điền đúng định dạng mã số thuế" required="">
                                                 </div>
                                                 <div class="form-group col-lg-6">
-                                                    <button type="submit" class="btn btn-primary"
-                                                        id="get-info-form-easyca">Lấy thông
-                                                        tin</button>
+                                                <button type="submit" class="btn btn-primary" id="get-info-form-easyca"> Lấy thông tin
+                                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -899,10 +910,9 @@
                                                         title="Vui lòng điền đúng định dạng mã số thuế" required="">
                                                 </div>
                                                 <div class="form-group col-lg-6">
-                                                    <button type="submit" class="btn btn-primary"
-                                                        id="get-info-form-ca2">Lấy
-                                                        thông
-                                                        tin</button>
+                                                <button type="submit" class="btn btn-primary" id="get-info-form-ca2"> Lấy thông tin
+                                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -1080,9 +1090,9 @@
                                                         title="Vui lòng điền đúng định dạng mã số thuế" required="">
                                                 </div>
                                                 <div class="form-group col-lg-6">
-                                                    <button type="submit" class="btn btn-primary"
-                                                        id="get-info-form-newtelca">Lấy thông
-                                                        tin</button>
+                                                <button type="submit" class="btn btn-primary" id="get-info-form-newtelca"> Lấy thông tin
+                                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -1278,9 +1288,9 @@
                                                         title="Vui lòng điền đúng định dạng mã số thuế" required="">
                                                 </div>
                                                 <div class="form-group col-lg-6">
-                                                    <button type="submit" class="btn btn-primary"
-                                                        id="get-info-form-fastca">Lấy thông
-                                                        tin</button>
+                                                <button type="submit" class="btn btn-primary" id="get-info-form-fastca"> Lấy thông tin
+                                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -1370,7 +1380,16 @@
                                                     </svg>
                                                     Giấy đăng ký.docx
                                                 </button>
-
+                                            </div>
+                                            <div class="btn-download-block">
+                                                <button type="submit" id="fastca-gdk-pdf-btn"
+                                                    class="btn btn-danger"
+                                                    formaction="./file/fastca-gdk-pdf2.php">
+                                                    
+                                                    <img src="./img/pdf.svg" style="width: 20px; height:20px;" />
+                                                    Giấy đăng ký.pdf
+                                                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                </button>
                                             </div>
                                         </form>
                                     </div>
@@ -1419,9 +1438,9 @@
                                                         id="place-issued" required="" />
                                                 </div>
                                                 <div class="form-group col-lg-2">
-                                                    <button type="submit" class="btn btn-primary"
-                                                        id="get-info-form-viettelca">Lấy thông
-                                                        tin</button>
+                                                <button type="submit" class="btn btn-primary" id="get-info-form-viettelca"> Lấy thông tin
+                                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                                    </button>
                                                 </div>
                                             </div>
 
@@ -1561,28 +1580,27 @@
                                 </div>
                             </div>
                             <!-- End Viettel-CA -->
-                            
                         </div>
                         <hr>
-                            <section class="light">
-                                <p> Copyright © <?php echo date('Y') ?> by <a class="gradient1" id="link-footer" href="https://www.facebook.com/100004498530827/" target="_blank">Shinee - Thái Gia Hưng</a></p>
-                            </section>
+                        <section class="light">
+                            <p> Copyright © <?php echo date('Y') ?> by <a class="gradient1" id="link-footer" href="https://www.facebook.com/100004498530827/" target="_blank">Shinee - Thái Gia Hưng</a></p>
+                        </section>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <div role="alert" aria-live="assertive" aria-atomic="true" id="toast-alert-chars" class="toast" data-bs-delay="10000">
-            <div class="toast-header">
+        <div role="alert" aria-live="assertive" aria-atomic="true" id="toast-alert-chars" class="toast" data-bs-delay="12000">
+            <div class="toast-header toast-header-alert">
                 <img src="./img/alert-icon.png" alt="" class="toast-alert-icon">
                 <strong class="me-auto">Lỗi
 
                 </strong>
                 <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
-            <div class="toast-body">
-                Tên công ty hoặc địa chỉ có chứa ký tự & gây lỗi file. Vui lòng xoá ký tự & đi sau đó thêm thủ công lại
+            <div class="toast-body toast-body-alert">
+                Tên công ty hoặc địa chỉ có chứa ký tự "<b>&</b>" gây lỗi file. Vui lòng xoá ký tự "<b>&</b>" sau đó sửa thủ công lại
                 tại file word </div>
         </div>
 
@@ -1598,10 +1616,24 @@
                 Thông tin được lấy từ masothue.vn có thể không chính xác, vui lòng xác thực lại thông tin</div>
         </div>
 
+        <div role="alert" aria-live="assertive" aria-atomic="true" id="toast-info-not-found" class="toast" data-bs-delay="8000">
+            <div class="toast-header">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="48" height="48"
+            viewBox="0 0 48 48"
+            style=" fill:#000000; width: 24px; padding-right: 4px;"><path fill="#2196f3" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"></path><path fill="#fff" d="M22 22h4v11h-4V22zM26.5 16.5c0 1.379-1.121 2.5-2.5 2.5s-2.5-1.121-2.5-2.5S22.621 14 24 14 26.5 15.121 26.5 16.5z"></path></svg>                <strong class="me-auto" id="header-title-info">Infomation not found</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Không tìm thấy thông tin</div>
+        </div>
+        
+        <div class="zalo-chat-widget" data-oaid="3845823324955424993" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="3" data-width="360" data-height="450"></div>
+
         <div id="get-tax-info" style="display: none"></div>
 
     </body>
-
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>
 <script src="./js/script.js"></script>
 <script src="./js/validation.js"></script>
 
@@ -1780,7 +1812,7 @@
     const traderPhone = document.querySelector('#trader-phone')
 
     const handleChangeAgency = (obj) => {
-        var selectValue = obj.value
+        const selectValue = obj.value
         if (selectValue === '1') {
             taxCodeAgency.value = '0309612872'
             nameAgency.value = 'CÔNG TY TNHH KỸ THUẬT CHỮ KÝ SỐ VIỆT NAM'
@@ -1808,7 +1840,7 @@
     }
 
     const handleChangePackageCA2 = (e) => {
-        var checkedSelectCa2 = ($(e).find(":selected").val());
+        const checkedSelectCa2 = ($(e).find(":selected").val());
         switch (checkedSelectCa2) {
             case '1':
                 $("#btn-ca2-cm").removeAttr('disabled');
@@ -1842,13 +1874,16 @@
     // Get info from taxcode vinca
     $(document).ready(function() {
         $('#get-info-form-vinca').click(function() {
-            var formId = 'form-vinca'
-            checkTaxCode = document.getElementById('vinca-company-taxcode').value
+            const btnGet = document.querySelector('#get-info-form-vinca')
+            const formId = 'form-vinca'
+            const checkTaxCode = document.querySelector('#vinca-company-taxcode').value
             if (checkTaxCode === '') {
                 alert('Vui lòng nhập mã số thuế')
             } else {
                 $("#toast-info-alert").toast('show');
-                var data = $('#form-vinca').serialize();
+                btnGet.setAttribute('disabled', 'disabled');
+                btnGet.classList.add('loading');
+                const data = $('#form-vinca').serialize();
                 document.querySelector(`#${formId} > div:nth-child(2) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(3) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value =
@@ -1859,28 +1894,39 @@
                     url: 'post.php',
                     data: data,
                     success: function(data) {
-                        if (data == 'false') {
+                        if (data==='false') {
                             alert('Lấy dữ liệu lỗi, vui lòng nhập thủ công !');
                         } else {
                             $('#get-tax-info').html(data);
                         }
                     }
                 });
-                setTimeout(function() {
-                    if (document.querySelector('.table-taxinfo') == null) {
-                        var getBlock = document.querySelector('.tax-listing')
-                        var block = getBlock.querySelector(
+                setTimeout(() => {
+                    if (document.querySelector('.table-taxinfo')===null) {
+                        const getBlock = document.querySelector('.tax-listing')
+                        const block = getBlock.querySelector(
                             "#main > section > div > div.tax-listing > div:nth-child(2)");
                         getCompanyNameCn(formId, block)
                         getAddressCn(formId, block)
                         getDirectorCn(formId, block)
                     } else {
-                        var block = document.querySelector('.table-taxinfo').innerHTML
+                        const block = document.querySelector('.table-taxinfo').innerHTML
                         getCompanyName(formId, block)
                         getAddress(formId, block)
                         getDirector(formId, block)
                     }
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    $('#get-tax-info').html('')
                 }, 2000)
+                setTimeout(() => {
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    if(document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '') {
+                        $("#toast-info-not-found").toast('show');
+                    }
+                    console.clear()
+                }, 10000);
                 return false;
             }
         });
@@ -1888,13 +1934,16 @@
 
     $(document).ready(function() {
         $('#get-info-form-vina').click(function() {
-            var formId = 'form-vina'
-            checkTaxCode = document.getElementById('vina-company-taxcode').value
+            const btnGet = document.querySelector('#get-info-form-vina')
+            const formId = 'form-vina'
+            const checkTaxCode = document.querySelector('#vina-company-taxcode').value
             if (checkTaxCode === '') {
                 alert('Vui lòng nhập mã số thuế')
             } else {
                 $("#toast-info-alert").toast('show');
-                var data = $('#form-vina').serialize();
+                btnGet.setAttribute('disabled', 'disabled');
+                btnGet.classList.add('loading');
+                const data = $('#form-vina').serialize();
                 document.querySelector(`#${formId} > div:nth-child(2) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(3) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value =
@@ -1905,28 +1954,39 @@
                     url: 'post.php',
                     data: data,
                     success: function(data) {
-                        if (data == 'false') {
+                        if (data==='false') {
                             alert('Lấy dữ liệu lỗi, vui lòng nhập thủ công !');
                         } else {
                             $('#get-tax-info').html(data);
                         }
                     }
                 });
-                setTimeout(function() {
-                    if (document.querySelector('.table-taxinfo') == null) {
-                        var getBlock = document.querySelector('.tax-listing')
-                        var block = getBlock.querySelector(
+                setTimeout(() => {
+                    if (document.querySelector('.table-taxinfo')===null) {
+                        const getBlock = document.querySelector('.tax-listing')
+                        const block = getBlock.querySelector(
                             "#main > section > div > div.tax-listing > div:nth-child(2)");
                         getCompanyNameCn(formId, block)
                         getAddressCn(formId, block)
                         getDirectorCn(formId, block)
                     } else {
-                        var block = document.querySelector('.table-taxinfo').innerHTML
+                        const block = document.querySelector('.table-taxinfo').innerHTML
                         getCompanyName(formId, block)
                         getAddress(formId, block)
                         getDirector(formId, block)
                     }
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    $('#get-tax-info').html('')
                 }, 2000)
+                setTimeout(() => {
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    if(document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '') {
+                        $("#toast-info-not-found").toast('show');
+                    }
+                    console.clear()
+                }, 10000);
                 return false;
             }
         });
@@ -1934,13 +1994,16 @@
 
     $(document).ready(function() {
         $('#get-info-form-fptca').click(function() {
-            var formId = 'form-fptca'
-            checkTaxCode = document.getElementById('fptca-company-taxcode').value
+            const btnGet = document.querySelector('#get-info-form-fptca')
+            const formId = 'form-fptca'
+            const checkTaxCode = document.querySelector('#fptca-company-taxcode').value
             if (checkTaxCode === '') {
                 alert('Vui lòng nhập mã số thuế')
             } else {
                 $("#toast-info-alert").toast('show');
-                var data = $('#form-fptca').serialize();
+                btnGet.setAttribute('disabled', 'disabled');
+                btnGet.classList.add('loading');
+                const data = $('#form-fptca').serialize();
                 document.querySelector(`#${formId} > div:nth-child(2) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(3) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value =
@@ -1951,28 +2014,39 @@
                     url: 'post.php',
                     data: data,
                     success: function(data) {
-                        if (data == 'false') {
+                        if (data==='false') {
                             alert('Lấy dữ liệu lỗi, vui lòng nhập thủ công !');
                         } else {
                             $('#get-tax-info').html(data);
                         }
                     }
                 });
-                setTimeout(function() {
-                    if (document.querySelector('.table-taxinfo') == null) {
-                        var getBlock = document.querySelector('.tax-listing')
-                        var block = getBlock.querySelector(
+                setTimeout(() => {
+                    if (document.querySelector('.table-taxinfo')===null) {
+                        const getBlock = document.querySelector('.tax-listing')
+                        const block = getBlock.querySelector(
                             "#main > section > div > div.tax-listing > div:nth-child(2)");
                         getCompanyNameCn(formId, block)
                         getAddressCn(formId, block)
                         getDirectorCn(formId, block)
                     } else {
-                        var block = document.querySelector('.table-taxinfo').innerHTML
+                        const block = document.querySelector('.table-taxinfo').innerHTML
                         getCompanyName(formId, block)
                         getAddress(formId, block)
                         getDirector(formId, block)
                     }
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    $('#get-tax-info').html('')
                 }, 2000)
+                setTimeout(() => {
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    if(document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '') {
+                        $("#toast-info-not-found").toast('show');
+                    }
+                    console.clear()
+                }, 10000);
                 return false;
             }
         });
@@ -1980,13 +2054,16 @@
 
     $(document).ready(function() {
         $('#get-info-form-easyca').click(function() {
-            var formId = 'form-easyca'
-            checkTaxCode = document.getElementById('easyca-company-taxcode').value
+            const btnGet = document.querySelector('#get-info-form-easyca')
+            const formId = 'form-easyca'
+            const checkTaxCode = document.querySelector('#easyca-company-taxcode').value
             if (checkTaxCode === '') {
                 alert('Vui lòng nhập mã số thuế')
             } else {
                 $("#toast-info-alert").toast('show');
-                var data = $('#form-easyca').serialize();
+                btnGet.setAttribute('disabled', 'disabled');
+                btnGet.classList.add('loading');
+                const data = $('#form-easyca').serialize();
                 document.querySelector(`#${formId} > div:nth-child(2) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(3) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value =
@@ -1997,28 +2074,39 @@
                     url: 'post.php',
                     data: data,
                     success: function(data) {
-                        if (data == 'false') {
+                        if (data==='false') {
                             alert('Lấy dữ liệu lỗi, vui lòng nhập thủ công !');
                         } else {
                             $('#get-tax-info').html(data);
                         }
                     }
                 });
-                setTimeout(function() {
-                    if (document.querySelector('.table-taxinfo') == null) {
-                        var getBlock = document.querySelector('.tax-listing')
-                        var block = getBlock.querySelector(
+                setTimeout(() => {
+                    if (document.querySelector('.table-taxinfo')===null) {
+                        const getBlock = document.querySelector('.tax-listing')
+                        const block = getBlock.querySelector(
                             "#main > section > div > div.tax-listing > div:nth-child(2)");
                         getCompanyNameCn(formId, block)
                         getAddressCn(formId, block)
                         getDirectorCn(formId, block)
                     } else {
-                        var block = document.querySelector('.table-taxinfo').innerHTML
+                        const block = document.querySelector('.table-taxinfo').innerHTML
                         getCompanyName(formId, block)
                         getAddress(formId, block)
                         getDirector(formId, block)
                     }
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    $('#get-tax-info').html('')
                 }, 2000)
+                setTimeout(() => {
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    if(document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '') {
+                        $("#toast-info-not-found").toast('show');
+                    }
+                    console.clear()
+                }, 10000);
                 return false;
             }
         });
@@ -2026,13 +2114,16 @@
 
     $(document).ready(function() {
         $('#get-info-form-ca2').click(function() {
-            var formId = 'form-ca2'
-            checkTaxCode = document.getElementById('ca2-company-taxcode').value
+            const btnGet = document.querySelector('#get-info-form-ca2')
+            const formId = 'form-ca2'
+            const checkTaxCode = document.querySelector('#ca2-company-taxcode').value
             if (checkTaxCode === '') {
                 alert('Vui lòng nhập mã số thuế')
             } else {
                 $("#toast-info-alert").toast('show');
-                var data = $('#form-ca2').serialize();
+                btnGet.setAttribute('disabled', 'disabled');
+                btnGet.classList.add('loading');
+                const data = $('#form-ca2').serialize();
                 document.querySelector(`#${formId} > div:nth-child(2) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(3) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value =
@@ -2045,28 +2136,39 @@
                     url: 'post.php',
                     data: data,
                     success: function(data) {
-                        if (data == 'false') {
+                        if (data==='false') {
                             alert('Lấy dữ liệu lỗi, vui lòng nhập thủ công !');
                         } else {
                             $('#get-tax-info').html(data);
                         }
                     }
                 });
-                setTimeout(function() {
-                    if (document.querySelector('.table-taxinfo') == null) {
-                        var getBlock = document.querySelector('.tax-listing')
-                        var block = getBlock.querySelector(
+                setTimeout(() => {
+                    if (document.querySelector('.table-taxinfo')===null) {
+                        const getBlock = document.querySelector('.tax-listing')
+                        const block = getBlock.querySelector(
                             "#main > section > div > div.tax-listing > div:nth-child(2)");
                         getCompanyNameCn(formId, block)
                         getAddressCn(formId, block)
                         getDirectorCn(formId, block)
                     } else {
-                        var block = document.querySelector('.table-taxinfo').innerHTML
+                        const block = document.querySelector('.table-taxinfo').innerHTML
                         getCompanyName(formId, block)
                         getAddress(formId, block)
                         getDirector(formId, block)
                     }
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    $('#get-tax-info').html('')
                 }, 2000)
+                setTimeout(() => {
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    if(document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '') {
+                        $("#toast-info-not-found").toast('show');
+                    }
+                    console.clear()
+                }, 10000);
                 return false;
             }
         });
@@ -2074,13 +2176,16 @@
 
     $(document).ready(function() {
         $('#get-info-form-newtelca').click(function() {
-            var formId = 'form-newtelca'
-            checkTaxCode = document.getElementById('newtelca-company-taxcode').value
+            const btnGet = document.querySelector('#get-info-form-newtelca')
+            const formId = 'form-newtelca'
+            const checkTaxCode = document.querySelector('#newtelca-company-taxcode').value
             if (checkTaxCode === '') {
                 alert('Vui lòng nhập mã số thuế')
             } else {
                 $("#toast-info-alert").toast('show');
-                var data = $('#form-newtelca').serialize();
+                btnGet.setAttribute('disabled', 'disabled');
+                btnGet.classList.add('loading');
+                const data = $('#form-newtelca').serialize();
                 document.querySelector(`#${formId} > div:nth-child(2) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(3) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value =
@@ -2091,28 +2196,39 @@
                     url: 'post.php',
                     data: data,
                     success: function(data) {
-                        if (data == 'false') {
+                        if (data==='false') {
                             alert('Lấy dữ liệu lỗi, vui lòng nhập thủ công !');
                         } else {
                             $('#get-tax-info').html(data);
                         }
                     }
                 });
-                setTimeout(function() {
-                    if (document.querySelector('.table-taxinfo') == null) {
-                        var getBlock = document.querySelector('.tax-listing')
-                        var block = getBlock.querySelector(
+                setTimeout(() => {
+                    if (document.querySelector('.table-taxinfo')===null) {
+                        const getBlock = document.querySelector('.tax-listing')
+                        const block = getBlock.querySelector(
                             "#main > section > div > div.tax-listing > div:nth-child(2)");
                         getCompanyNameCn(formId, block)
                         getAddressCn(formId, block)
                         getDirectorCn(formId, block)
                     } else {
-                        var block = document.querySelector('.table-taxinfo').innerHTML
+                        const block = document.querySelector('.table-taxinfo').innerHTML
                         getCompanyName(formId, block)
                         getAddress(formId, block)
                         getDirector(formId, block)
                     }
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    $('#get-tax-info').html('')
                 }, 2000)
+                setTimeout(() => {
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    if(document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '') {
+                        $("#toast-info-not-found").toast('show');
+                    }
+                    console.clear()
+                }, 10000);
                 return false;
             }
         });
@@ -2120,13 +2236,16 @@
 
     $(document).ready(function() {
         $('#get-info-form-fastca').click(function() {
-            var formId = 'form-fastca'
-            checkTaxCode = document.getElementById('fastca-company-taxcode').value
+            const btnGet = document.querySelector('#get-info-form-fastca')
+            const formId = 'form-fastca'
+            const checkTaxCode = document.querySelector('#fastca-company-taxcode').value
             if (checkTaxCode === '') {
                 alert('Vui lòng nhập mã số thuế')
             } else {
                 $("#toast-info-alert").toast('show');
-                var data = $('#form-fastca').serialize();
+                btnGet.setAttribute('disabled', 'disabled');
+                btnGet.classList.add('loading');
+                const data = $('#form-fastca').serialize();
                 document.querySelector(`#${formId} > div:nth-child(2) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(3) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value =
@@ -2137,43 +2256,79 @@
                     url: 'post.php',
                     data: data,
                     success: function(data) {
-                        if (data == 'false') {
+                        if (data==='false') {
                             alert('Lấy dữ liệu lỗi, vui lòng nhập thủ công !');
                         } else {
                             $('#get-tax-info').html(data);
                         }
                     }
                 });
-                setTimeout(function() {
-                    if (document.querySelector('.table-taxinfo') == null) {
-                        var getBlock = document.querySelector('.tax-listing')
-                        var block = getBlock.querySelector(
+                setTimeout(() => {
+                    if (document.querySelector('.table-taxinfo')===null) {
+                        const getBlock = document.querySelector('.tax-listing')
+                        const block = getBlock.querySelector(
                             "#main > section > div > div.tax-listing > div:nth-child(2)");
                         getCompanyNameCn(formId, block)
                         getAddressCn(formId, block)
                         getDirectorCn(formId, block)
                     } else {
-                        var block = document.querySelector('.table-taxinfo').innerHTML
+                        const block = document.querySelector('.table-taxinfo').innerHTML
                         getCompanyName(formId, block)
                         getAddress(formId, block)
                         getDirector(formId, block)
-
                     }
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    $('#get-tax-info').html('')
                 }, 2000)
+                setTimeout(() => {
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    if(document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '') {
+                        $("#toast-info-not-found").toast('show');
+                    }
+                    console.clear()
+                }, 10000);
                 return false;
             }
         });
     })
+    
+    $(document).ready(function() {
+        $('#fastca-gdk-pdf-btn').click(function() {
+            const formId = 'form-fastca'
+            const btnPdf = document.querySelector('#fastca-gdk-pdf-btn')
+            if (
+                document.querySelector("#fastca-company-taxcode").value === '' ||
+                document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '' ||
+                document.querySelector(`#${formId} > div:nth-child(3) > input`).value === '' ||
+                document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value === ''
+            ) {}
+            else {
+                setTimeout(() => {
+                    btnPdf.setAttribute('disabled', 'disabled');
+                    btnPdf.classList.add('loading');
+                }, 200)
+                setTimeout(() => {
+                    btnPdf.removeAttribute('disabled'); 
+                    btnPdf.classList.remove('loading');
+                }, 10000)
+            }
+        })
+    })
 
     $(document).ready(function() {
         $('#get-info-form-viettelca').click(function() {
-            var formId = 'form-viettelca'
-            checkTaxCode = document.getElementById('viettelca-company-taxcode').value
+            const btnGet = document.querySelector('#get-info-form-viettelca')
+            const formId = 'form-viettelca'
+            const checkTaxCode = document.querySelector('#viettelca-company-taxcode').value
             if (checkTaxCode === '') {
                 alert('Vui lòng nhập mã số thuế')
             } else {
                 $("#toast-info-alert").toast('show');
-                var data = $('#form-viettelca').serialize();
+                btnGet.setAttribute('disabled', 'disabled');
+                btnGet.classList.add('loading');
+                const data = $('#form-viettelca').serialize();
                 document.querySelector(`#${formId} > div:nth-child(2) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(3) > input`).value = ''
                 document.querySelector(`#${formId} > div:nth-child(4) > div:nth-child(1) > input`).value =
@@ -2184,29 +2339,40 @@
                     url: 'post.php',
                     data: data,
                     success: function(data) {
-                        if (data == 'false') {
+                        if (data==='false') {
                             alert('Lấy dữ liệu lỗi, vui lòng nhập thủ công !');
                         } else {
                             $('#get-tax-info').html(data);
                         }
                     }
                 });
-                setTimeout(function() {
-                    if (document.querySelector('.table-taxinfo') == null) {
-                        var getBlock = document.querySelector('.tax-listing')
-                        var block = getBlock.querySelector(
+                setTimeout(() => {
+                    if (document.querySelector('.table-taxinfo')===null) {
+                        const getBlock = document.querySelector('.tax-listing')
+                        const block = getBlock.querySelector(
                             "#main > section > div > div.tax-listing > div:nth-child(2)");
                         getCompanyNameCn(formId, block)
                         getAddressCn(formId, block)
                         getDirectorCn(formId, block)
                     } else {
-                        var block = document.querySelector('.table-taxinfo').innerHTML
+                        const block = document.querySelector('.table-taxinfo').innerHTML
                         getCompanyName(formId, block)
                         getAddress(formId, block)
                         getDirector(formId, block)
 
                     }
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    $('#get-tax-info').html('')
                 }, 2000)
+                setTimeout(() => {
+                    btnGet.removeAttribute('disabled'); 
+                    btnGet.classList.remove('loading');
+                    if(document.querySelector(`#${formId} > div:nth-child(2) > input`).value === '') {
+                        $("#toast-info-not-found").toast('show');
+                    }
+                    console.clear()
+                }, 10000);
                 return false;
             }
         });
@@ -2254,8 +2420,6 @@
         document.querySelector(`#${formId} > div:nth-child(3) > input`).value = result
         return result
     }
-
-
 
     getDirector = (formId, block) => {
         const start1 = block.search('legalName')

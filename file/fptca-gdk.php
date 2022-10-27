@@ -90,9 +90,9 @@ try
         $message = str_replace("tokendirector", $director,           $message); 
         $message = str_replace("tokenposition", $position,           $message);  
 
-        $message = str_replace("G1", $oneYear,$message); 
-        $message = str_replace("G2", $twoYear,$message); 
-        $message = str_replace("G3", $threeYear,$message);
+        $message = str_replace("PA1", $oneYear,$message); 
+        $message = str_replace("PA2", $twoYear,$message); 
+        $message = str_replace("PA3", $threeYear,$message);
 
         $message = str_replace("tokenday",    $day,  $message); 
         $message = str_replace("tokenmonth",   $month, $message); 

@@ -108,9 +108,9 @@ try
 
         $message = str_replace("tokenmoney",$totalMoney,$message); 
 
-        $message = str_replace("G1", $oneYear,$message); 
-        $message = str_replace("G2", $twoYear,$message); 
-        $message = str_replace("G3", $threeYear,$message);
+        $message = str_replace("PA1", $oneYear,$message); 
+        $message = str_replace("PA2", $twoYear,$message); 
+        $message = str_replace("PA3", $threeYear,$message);
         //Replace the content with the new content created above.
         $zip->addFromString($key_file_name, $message);
         $zip->close();
